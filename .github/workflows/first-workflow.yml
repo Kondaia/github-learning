@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello kondaiah"
+        run: |
+            echo "Hello kondaiah"
+            echo "what's upp"
       - name: Print Message
         run: echo "learn smartly"
